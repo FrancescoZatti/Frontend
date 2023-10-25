@@ -1,0 +1,80 @@
+
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    background-color: rgb(255, 255, 246);
+    color: rgb(19, 11, 0);
+}
+
+header {
+   text-align: center;
+}
+
+main, footer {
+    width: 60%;
+    margin: auto;
+    font-size: 1em;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 0.01em;
+    border-color: lightseagreen;
+    border-bottom-style: solid;
+    padding: 0.5em 0em;
+    font-weight: lighter;
+}
+
+figure {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+figcaption {
+    color: lightsteelblue;
+    font-size: 1em;
+}
+
+a {
+    color: lightseagreen;
+}
+
+li {
+    margin-top: 1em;
+}
+
+header p {
+    font-size: 0.8em;
+    background-color: rgb(255, 245, 230);
+    padding: 1em 0em;
+    border-top: 0.1em;
+    border-color: orange;
+    border-top-style: solid;
+    color: cadetblue;
+}
+
+aside p {
+    color:peru;
+    border-left: 0.2em;
+    border-color: peru;
+    border-left-style: solid;
+    padding-left: 1em;
+}
+
+a:hover {
+    color:cyan
+}
+
+#logo {
+    width: 10em;
+}
+
+#focaccia {
+    width: 100%;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em 0.2em grey;
+}
